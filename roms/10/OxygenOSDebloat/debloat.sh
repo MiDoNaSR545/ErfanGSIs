@@ -5,11 +5,13 @@ thispath=`cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd`
 
 rm -rf $1/etc/GeoIP2-City.mmdb
 rm -rf $1/etc/apps/in
+rm -rf $1/etc/usb_drivers.iso
 
 # RIL FIX
 rm -rf $1/product/framework/op-telephony-common.jar
 
 # Nuke OnePlus useless reserve apks
+rm -rf $1/reserve/Calculator
 rm -rf $1/reserve/OPSyncCenter
 rm -rf $1/reserve/OnePlusPods
 rm -rf $1/reserve/SmartHome
@@ -20,6 +22,7 @@ rm -rf $1/reserve/TencentVideo
 rm -rf $1/reserve/GameCenter
 rm -rf $1/reserve/NearmePlay
 rm -rf $1/reserve/OPBackupRestore
+rm -rf $1/reserve/OPNote
 rm -rf $1/reserve/OPWallpaperResources
 rm -rf $1/reserve/Reader
 rm -rf $1/reserve/UCBrowser
@@ -30,7 +33,10 @@ rm -rf $1/reserve/OPRoamingAppRelease
 rm -rf $1/reserve/OPWidget
 rm -rf $1/reserve/SinaWeibo
 rm -rf $1/reserve/CanvasResources
+rm -rf $1/reserve/OPSoundRecorder
 rm -rf $1/reserve/OPForum
+rm -rf $1/reserve/Weather
+rm -rf $1/reserve/SoundRecorder
 rm -rf $1/reserve/alipay
 rm -rf $1/reserve/amap
 rm -rf $1/reserve/ctrip
@@ -49,11 +55,15 @@ rm -rf $1/app/OPYellowpage
 rm -rf $1/app/OPWallpaperResources
 rm -rf $1/app/OEMLogKit
 rm -rf $1/app/OPBackup
+rm -rf $1/app/QQBrowser
 rm -rf $1/app/ARCore_stub
 rm -rf $1/app/AntHalService
+rm -rf $1/app/Calculator
 rm -rf $1/app/CtsShimPrebuilt
 rm -rf $1/app/EngineeringMode
 rm -rf $1/app/EngSpecialTest
+rm -rf $1/app/OPBreathMode
+rm -rf $1/app/OPPush
 rm -rf $1/app/OsuLogin
 rm -rf $1/app/PhotosOnline
 rm -rf $1/app/Rftoolkit
@@ -68,6 +78,7 @@ rm -rf $1/app/OemAutoTestServer
 rm -rf $1/app/OpLogkit
 rm -rf $1/app/SmscPlugger
 rm -rf $1/app/OPInstantTranslation
+rm -rf $1/app/Calendar
 rm -rf $1/app/Exchange2
 rm -rf $1/app/NFCTestMode
 rm -rf $1/app/NxpNfcNci
@@ -77,6 +88,7 @@ rm -rf $1/app/OposAds
 rm -rf $1/app/QColor
 rm -rf $1/app/SensorTestTool
 rm -rf $1/app/SoterService
+rm -rf $1/app/SoundRecorder
 rm -rf $1/app/nearme
 rm -rf $1/app/heytap_mcs_cn
 rm -rf $1/app/WifiRfTestApk
@@ -88,6 +100,8 @@ rm -rf $1/app/aptxui
 
 
 # Nuke OnePlus useless priv-app apks
+rm -rf $1/priv-app/OnePlusCamera
+rm -rf $1/priv-app/OnePlusGallery
 rm -rf $1/priv-app/Velvet
 rm -rf $1/priv-app/CtsShimPrivPrebuilt
 rm -rf $1/priv-app/HotwordEnrollmentXGoogleWCD9340
@@ -109,6 +123,7 @@ rm -rf $1/priv-app/FusedLocation
 rm -rf $1/priv-app/IFAAService
 rm -rf $1/priv-app/NearmeBrowser
 rm -rf $1/priv-app/OPFindMyPhone
+rm -rf $1/priv-app/OPMarket
 rm -rf $1/priv-app/OPVoiceAssistant
 rm -rf $1/priv-app/OPVoiceWakeUp
 rm -rf $1/priv-app/Tag
@@ -151,6 +166,7 @@ rm -rf $1/product/app/Music2
 # Nuke OnePlus useless product/priv-app apks
 rm -rf $1/product/priv-app/AndroidAutoStub
 rm -rf $1/product/priv-app/GoogleFeedback
+rm -rf $1/product/priv-app/LiveCaption
 rm -rf $1/product/priv-app/QAS_DVC_MSP
 rm -rf $1/product/priv-app/Velvet
 rm -rf $1/product/priv-app/HotwordEnrollmentXGoogleHEXAGON
@@ -173,3 +189,4 @@ rm -rf $1/india/priv-app/OPWorkLifeBalance
 # Nuke OnePlus useless india/reserve apks
 rm -rf $1/india/reserve/EpicGameApp
 rm -rf $1/india/reserve/IndiaOPRoamingAppRelease
+rm -rf $1/india/reserve/OPNote
