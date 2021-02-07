@@ -7,7 +7,6 @@ rm -rf $1/app/cit
 rm -rf $1/app/MiuiCompass
 rm -rf $1/app/MiuiVideoGlobal
 rm -rf $1/app/PaymentService
-rm -rf $1/app/Calculator
 rm -rf $1/priv-app/Backup
 rm -rf $1/priv-app/Browser
 rm -rf $1/priv-app/Calendar
@@ -21,7 +20,6 @@ rm -rf $1/app/NexyPay
 rm -rf $1/app/com.miui.qr
 rm -rf $1/app/MiuiBugReport
 rm -rf $1/priv-app/MiuiVideo
-rm -rf $1/priv-app/PersonalAssistant
 rm -rf $1/priv-app/MiService
 rm -rf $1/priv-app/Music
 rm -rf $1/data-app/XiaoAiSpeechEngine
@@ -69,7 +67,6 @@ rm -rf $1/app/Videos
 rm -rf $1/app/YouDaoEngine
 rm -rf $1/app/YouTube
 rm -rf $1/app/XiaomiServiceFramework
-rm -rf $1/priv-app/Provision
 rm -rf $1/app/facebook-appmanager
 rm -rf $1/app/talkback
 rm -rf $1/priv-app/GlobalUserGuide
