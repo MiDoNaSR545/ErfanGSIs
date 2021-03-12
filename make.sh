@@ -101,8 +101,8 @@ fi
 # Detect is the src treble ro.treble.enabled=true
 istreble=`cat $systemdir/system/build.prop | grep ro.treble.enabled | cut -d "=" -f 2`
 if [[ ! "$istreble" == "true" ]]; then
-    echo "The source is not treble supported"
-    exit 1
+    echo "The source is not treble supported but np"
+
 fi
 
 # Detect Source API level
